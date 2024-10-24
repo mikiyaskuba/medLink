@@ -1,0 +1,25 @@
+/* PrivacyPolicy.css */
+.privacy-policy-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.privacy-policy-container h1, .privacy-policy-container h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.privacy-policy-container p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.privacy-policy-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.privacy-policy-container a:hover {
+  text-decoration: underline;
+}

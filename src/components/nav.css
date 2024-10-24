@@ -1,0 +1,43 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #2c3e50; /* Dark Blue */
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #27ae60; /* Green */
+}
+
+.navbar .nav-link {
+  font-size: 1.2rem;
+  color: #ffffff; /* White */
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #f1c40f; /* Accent color on hover */
+}
+
+.navbar-toggler {
+  border-color: #ffffff; /* White */
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff; /* White */
+}
+
+.fixed-top {
+  position: fixed;
+  width: 100%;
+  z-index: 1030;
+}
+
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    padding: 1rem;
+    text-align: center;
+  }
+}
