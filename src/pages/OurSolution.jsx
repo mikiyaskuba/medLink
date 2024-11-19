@@ -3,6 +3,7 @@ import "./OurSolution.css";
 import mobileClinic from "../assets/mobileClinic.webp";
 import mobtwo from "../assets/mobtwo.webp";
 import tele from "../assets/tele.webp";
+import { Link } from "react-router-dom";
 
 const OurSolution = () => {
 	return (
@@ -72,9 +73,9 @@ const OurSolution = () => {
 					Your support can help us reach more communities, improve health
 					outcomes, and build a sustainable healthcare system for all.
 				</p>
-				<a href="/contact" className="cta-button">
+				<Link to="/contact" className="cta-button">
 					Contact Us
-				</a>
+				</Link>
 			</div>
 		</div>
 	);

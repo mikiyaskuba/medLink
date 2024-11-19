@@ -5,6 +5,7 @@ import HeroTwo from "../assets/HeroTwo.webp";
 import AltOne from "../assets/AltOne.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 	// Initialize AOS for animations inside the component
@@ -92,9 +93,9 @@ const Home = () => {
 					rural Ethiopia. Together, we can save lives and build healthier, more
 					resilient communities.
 				</p>
-				<a href="/contact" className="cta-button">
+				<Link to="/contact" className="cta-button">
 					Partner with Us
-				</a>
+				</Link>
 			</section>
 		</div>
 	);

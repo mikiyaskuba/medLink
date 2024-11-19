@@ -100,7 +100,7 @@ const Footer = () => {
 			{/* Footer Bottom */}
 			<div className="footer-bottom">
 				<p>
-					&copy; {new Date().getFullYear()} HealthGrid |{" "}
+					&copy; {new Date().getFullYear()} MedLink |{" "}
 					<Link to="/privacy-policy">Privacy Policy</Link> | All Rights Reserved
 				</p>
 			</div>
